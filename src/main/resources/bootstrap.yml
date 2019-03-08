@@ -1,0 +1,12 @@
+# Properties active for ALL profiles:
+---
+spring:
+  application:
+    name: conversionfactor
+  cloud:
+    config:
+      uri: http://localhost:8001  # Expect the Spring Cloud Config server to be running on localhost, port 8001.   
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
